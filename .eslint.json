@@ -1,0 +1,21 @@
+{
+  "extends": ["react-app", "airbnb", "prettier", "airbnb/hooks", "plugin:react/recommended"],
+  "parser": "@babel/eslint-parser",
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "react/prop-types": "error",
+    "no-unused-vars": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "prettier/prettier": "error"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
